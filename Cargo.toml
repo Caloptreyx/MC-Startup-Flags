@@ -1,0 +1,24 @@
+[package]
+name = "dev_caloptreyx_startupflags"
+description = "Interactive Minecraft JVM startup flag editor with curated performance presets, memory headroom limits, security validation, and shareable custom presets."
+authors = ["Caloptreyx"]
+version = "0.1.0"
+edition = { workspace = true }
+
+[dependencies]
+shared = { workspace = true }
+anyhow = { workspace = true }
+async-trait = { workspace = true }
+axum = { workspace = true }
+base64 = { workspace = true }
+chrono = { workspace = true }
+compact_str = { workspace = true }
+indexmap = { workspace = true }
+semver = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+sqlx = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+utoipa-axum = { workspace = true }
+uuid = { workspace = true }
