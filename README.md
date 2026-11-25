@@ -24,6 +24,24 @@ An interactive Minecraft JVM startup flag editor for [Calagopus Panel](https://c
   - Export as compact `mcflags:v1:<base64url>` share codes or formatted JSON.
   - Import share codes, JSON presets, or raw `java ...` commands with automatic memory clamping and security filtering preview.
 
+## Screenshots
+
+**Curated presets & saved profiles**: pick a JVM preset matched to your Java runtime and server software, or save and import/export presets.
+
+![Startup Flags presets](docs/screenshots/flags-builder.png)
+
+**Garbage collector, heap & runtime flags**: tune GC profiles, automatic or custom heap sizing, and container-safe JVM flags.
+
+![Garbage collector, heap, and JVM flags builder](docs/screenshots/advanced-flags.png)
+
+**Startup page integration**: quick-access card right at the top of the server's Startup page.
+
+![Startup page shortcut card](docs/screenshots/startup-integration.png)
+
+**Admin settings**: restrict eligible eggs, set container memory overhead and RAM percentage ceilings, and configure blocked flag prefixes.
+
+![MC Startup Flags admin settings](docs/screenshots/admin-settings.png)
+
 ## Permissions
 
 Server permission group `startup-flags`:
